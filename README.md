@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NPM Upgrade Assistant 🚀
+<div align="center">
+  <p>🤖 一个由 AI 驱动的现代化 NPM 包升级助手，帮助开发者轻松管理和升级项目依赖。</p>
+  <p>🤖 An AI-powered modern NPM package upgrade assistant to help developers easily manage and upgrade project dependencies.</p>
+</div>
 
-## Getting Started
+## ✨ 特性 Features
 
-First, run the development server:
+### 智能依赖分析 Smart Dependency Analysis
+- 🎯 自动检测过时的依赖包 Automatically detect outdated dependencies
+- 🔍 深度分析依赖关系 Deep analysis of dependency relationships
+- 📊 生成详细的依赖报告 Generate detailed dependency reports
 
+### 安全更新建议 Security Updates
+- 🛡️ 识别安全漏洞 Identify security vulnerabilities
+- ⚠️ 提供修复建议 Provide repair suggestions
+- ✅ 验证更新兼容性 Verify update compatibility
+
+### 便捷操作 Easy Operations
+- 🔄 一键批量更新 One-click batch updates
+- 📦 版本锁定管理 Version lock management
+- ⚡ 快速回滚功能 Quick rollback feature
+
+## 🚀 快速开始 Quick Start
+
+### 安装 Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 克隆项目 Clone the project
+git clone https://github.com/your-username/npm-upgrade.git
+
+# 进入项目目录 Enter project directory
+cd npm-upgrade
+
+# 安装依赖 Install dependencies
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 开发 Development
+```bash
+# 启动开发服务器 Start development server
+pnpm dev
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 构建生产版本 Build for production
+pnpm build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 启动生产服务器 Start production server
+pnpm start
+```
 
-## Learn More
+## 🛠️ 技术栈 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **前端框架 Frontend Framework**
+  - Next.js 15
+  - React 19
+  - TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **样式与UI Styling & UI**
+  - Tailwind CSS
+  - Radix UI
+  - Lucide Icons
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **AI 集成 AI Integration**
+  - OpenAI API
 
-## Deploy on Vercel
+## 📦 项目结构 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+├── app/              # 应用主目录 Main application directory
+├── components/       # React 组件 React components
+├── lib/             # 工具函数和库 Utility functions and libraries
+├── public/          # 静态资源 Static assets
+└── ...
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 环境配置 Environment Setup
+
+1. 复制环境配置文件 Copy environment configuration
+```bash
+cp .env.local.example .env.local
+```
+
+2. 配置必要的环境变量 Configure required environment variables
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+## 📝 使用说明 Usage Guide
+
+### 基本使用 Basic Usage
+1. 启动项目 Start the project
+```bash
+pnpm dev
+```
+
+2. 访问应用 Access the application
+```
+http://localhost:3000
+```
+
+3. 上传 package.json Upload package.json
+4. 查看分析结果 View analysis results
+5. 执行更新操作 Perform updates
+
+### 高级功能 Advanced Features
+- 自定义更新规则 Custom update rules
+- 依赖关系图可视化 Dependency graph visualization
+- 更新历史记录 Update history tracking
+
+## 🤝 贡献指南 Contributing
+
+欢迎提交 Pull Request 或创建 Issue！
+Contributions are welcome! Feel free to submit Pull Requests or create Issues.
+
+## 📄 许可证 License
+
+MIT License
+
+## 🙏 致谢 Acknowledgments
+
+感谢所有贡献者和用户的支持！
+Thanks to all contributors and users for their support!
